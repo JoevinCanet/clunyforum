@@ -2,3 +2,17 @@ body {
    background-image: url("../img/lyonlight.jpg");
    background-position: center;    
 }
+
+
+.maintitle {
+	font-size: 4rem;
+	background-color: rgba(4,4,4,0.2);
+	border-radius: 1% ;
+}
+section {
+	margin-top: 6rem;
+}
+
+a {
+	font-color: rgb(2,2,2);
+}

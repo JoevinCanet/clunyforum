@@ -17,14 +17,6 @@ section {
 	margin-top: 6rem;
 }
 
-#home logo {
-	position: absolute;
-	width: 90%;
-	height: 90%;
-	margin-left: 2%;
-	margin-top: 2%;
-} 
-
 #navigation {
   width: 100%;
   position: fixed;

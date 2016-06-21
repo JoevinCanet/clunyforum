@@ -1,22 +1,70 @@
 body {
-   background-image: url("../img/lyonlight.jpg");
-   background-position: center;    
+    background-image: url("../img/lyonlight.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 h1 {
 	font-size: 6rem;
 }
+
 .maintitle {
-	background-color: rgba(4,4,4,0.2);
-	border-radius: 1% ;
-}
-section {
-	margin-top: 6rem;
+	position: fixed;
+	top: 40%;
+	font-size: 130%;
+	background-color: #e4e4e4;	
 }
 
+
+#navigation {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  list-style: none;
+  padding: 1%;
+}
+
+#navigation li {
+  display: inline;
+  margin-bottom: 1px ;
+  padding: 1% ;
+}
+
+#navigation li a {
+  color: #2c2c7f ;
+  font-size: 130% ;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  text-decoration: underline ;
+}
+
+.invitation {
+  text-align: center;
+  border: 0;
+  font-size: 0;
+  margin-top: -4px
+}
 
 img{
-	margin: 6rem auto;
+padding:0;
+margin:0;
+}
+
+#trailer {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
 }
 
 a:link, a:visited {

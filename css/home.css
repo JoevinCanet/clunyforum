@@ -40,7 +40,6 @@ section {
 }
 
 #trailer {
-    position: fixed;
     top: 50%;
     left: 50%;
     min-width: 100%;

@@ -235,22 +235,22 @@ body .row4 .TheSponsors .TheSponsorsScroll {
 
 @keyframes Sponsors {
 	0%   {transform: translateX(6em);}
-	100%   {transform: translateX(-90em);}
+	100%   {transform: translateX(-110em);}
 }
 
 @-webkit-keyframes Sponsors {
 	0%   {transform: translateX(6em);}
-	100%   {transform: translateX(-90em);}
+	100%   {transform: translateX(-110em);}
 }
 
 @-moz-keyframes Sponsors {
 	0%   {transform: translateX(6em);}
-	100%   {transform: translateX(-90em);}
+	100%   {transform: translateX(-110em);}
 }
 
 @-o-keyframes Sponsors {
 	0%   {transform: translateX(6em);}
-	100%   {transform: translateX(-90em);}
+	100%   {transform: translateX(-110em);}
 }
 
 body .row4 .TheSponsors h2 {

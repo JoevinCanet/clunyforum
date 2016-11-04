@@ -1301,11 +1301,11 @@ body .row0 .HistoryExplanation {
 }
 	
 body .row1 .History .HistoryDiv {
-    width: 120%;
+    width: 100%;
 }
 
 body .row1 .History .HistoryDiv th {
-    width: 40%;
+    width: 33,33%;
 }
 
 body .row1 .contactform {

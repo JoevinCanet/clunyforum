@@ -733,7 +733,7 @@ body .row1 .History {
 
 body .row1 .History .HistoryDiv {
 	table-layout: fixed;
-    width: 180%;
+    width: 270%;
     height: 100%;
     border: 0;
 }
@@ -758,8 +758,18 @@ body .row1 .History .HistoryDiv p {
     padding: 6%;
 }
 
-body .row1 .History .HistoryDiv .Cluny2015 {
+body .row1 .History .HistoryDiv .Cluny2016 {
     background-color: #2f3472;
+    box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
+}
+
+body .row1 .History .HistoryDiv .Cluny2016 .Cluny2016img {
+    width: 100%;
+    box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
+}
+
+body .row1 .History .HistoryDiv .Cluny2015 {
+    background-color: #b93931;
     box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
 }
 
@@ -769,7 +779,7 @@ body .row1 .History .HistoryDiv .Cluny2015 .Cluny2015img {
 }
 
 body .row1 .History .HistoryDiv .Cluny2013 {
-    background-color: #b93931;
+    background-color: #eecb49;
     box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
 }
 
@@ -976,11 +986,11 @@ body .row1 .ProjectPage .ProjectPageDiv th {
 }
 
 body .row1 .History .HistoryDiv {
-    width: 100%;
+    width: 210%;
 }
 
 body .row1 .History .HistoryDiv th {
-    width: 50%;
+    width: 70%;
 }
 
 body .row1 .contactform {
@@ -1288,6 +1298,14 @@ body .row1 .ProjectPage .ProjectPageDiv th {
 
 body .row0 .HistoryExplanation {
 	padding: 3%; 
+}
+	
+body .row1 .History .HistoryDiv {
+    width: 120%;
+}
+
+body .row1 .History .HistoryDiv th {
+    width: 40%;
 }
 
 body .row1 .contactform {

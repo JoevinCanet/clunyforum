@@ -495,6 +495,182 @@ body .row3 .GroupsDiv .Group7 {
     background-color: #eecb49;
 }
 
+body .row1 .Groups {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+body .row1 .GroupsDiv {
+    display: table;
+    table-layout: fixed;
+    width: 665%;
+    border-spacing: 0;
+}
+
+body .row1 .GroupsDiv th {
+    width: 95%;
+	box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
+	color: white;
+	text-align: justify;
+	vertical-align: top;
+	padding: 1%;
+}
+
+body .row1 .GroupsDiv h2 {
+    text-align: center;
+}
+
+body .row1 .GroupsDiv p {
+    text-align: justify;
+
+}
+
+body .row1 .GroupsDiv .Group1 {
+    background-color: #2f3472;
+}
+
+body .row1 .GroupsDiv .Group2 {
+    background-color: #b93931;
+}
+
+body .row1 .GroupsDiv .Group3 {
+    background-color: #eecb49;
+}
+
+body .row1 .GroupsDiv .Group4 {
+    background-color: #000000;
+}
+
+body .row1 .GroupsDiv .Group5 {
+    background-color: #2f3472;
+}
+
+body .row1 .GroupsDiv .Group6 {
+    background-color: #b93931;
+}
+
+body .row1 .GroupsDiv .Group7 {
+    background-color: #eecb49;
+}
+
+body .row2 .PressDiv .PressImg {
+    width: 100%;
+}
+
+body .row2 .PressDesktopDiv .PressDesktopImg {
+    display: none;
+}
+
+body .row2 .Articles {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+body .row2 .ArticlesDiv {
+    display: table;
+    table-layout: fixed;
+    width: 240%;
+    border-spacing: 0;
+    font-size: 0;
+}
+
+body .row2 .ArticlesDiv th {
+    width: 80%;
+	vertical-align: top;
+	padding: 0;
+}
+
+body .row2 .ArticlesDiv img {
+    width: 100%;
+}
+
+body .row3 .ImpressionsVideos video {
+    display: block;
+    font-size: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+body .row3 .Impressions img {
+    width: 100%;
+}
+
+body .row3 .ImpressionsDesktop {
+    display: none;
+}
+
+body .row3 .ImpressionsVideos .ImpressionsVideo1 video {
+    margin: 0;
+    border: 0;
+    font-size: 0;
+}
+
+body .row3 div.ImpressionPics {
+  float: left;
+  width: 100%;
+}
+
+body .row3 div.ImpressionPic {
+	
+}
+
+body .row3 div.ImpressionPic input {
+  display: none;
+  left: -100%;
+  top: -100%;
+}
+
+body .row3 div.ImpressionPic input ~ div.Image {
+  display: none;
+  position: relative;
+}
+
+body .row3 div.ImpressionPic input:checked ~ div.Image {
+  display: block;
+}
+
+body .row3 div.ImpressionPic input:checked ~ label.previous,
+body .row3 div.ImpressionPic input:checked ~ label.next {
+  display: block;
+}
+
+body .row3 div.ImpressionPic label {
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  opacity: 0.5;
+  color: black;
+}
+
+body .row3 div.ImpressionPic input:focus ~ label {
+  color: red;
+  opacity: 1;
+}
+
+body .row3 img {
+  left: 0;
+  margin: 0;
+  right: 0;
+}
+
+body .row3 label {
+  font-size: 5em;
+  padding-top: 18%;
+}
+
+body .row3 label.previous {
+  float: left;
+}
+
+body .row3 label.next {
+  float: right;
+  text-align: right;
+}
+
 body .row1Association .Association {
   background-color: #778899;
   box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
@@ -788,6 +964,21 @@ body .row1 .History .HistoryDiv .Cluny2013 .Cluny2013img {
     box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
 }
 
+body .row0 .Cluny16img {
+	width: 100%; 
+	display: table-cell;
+}
+
+body .row0 .Cluny16Explanation {
+	background-color: #778899;
+	color: white;
+	padding: 4%; 
+}
+
+body .row0 .Cluny16Explanation p {
+	text-align: justify; 
+}
+
 body .row1 .contactform {
 	background-color: #778899;
 	box-shadow: inset 0 0 85px rgba(0, 0, 0, 0.3);
@@ -859,6 +1050,16 @@ footer .logo img {
 footer .logo p {
 	text-align: center;
 }
+
+
+
+													/* Landscape */
+@media (orientation: landscape) and (max-width: 77em) {
+.header {position: relative;}
+.header .menu-icon .navicon {position: relative;}
+body {margin-top: 0;}
+}
+
 
 													/* Tablets */
 @media (min-width: 48em) {
@@ -959,6 +1160,22 @@ body .row3 .GroupsDiv {
 body .row3 .GroupsDiv th {
     width: 60%;
     padding: 1%;
+}
+
+body .row1 .GroupsDiv {
+    width: 420%;
+}
+
+body .row1 .GroupsDiv th {
+    width: 60%;
+}
+
+body .row2 .ArticlesDiv {
+    width: 120%;
+}
+
+body .row2 .ArticlesDiv th {
+    width: 40%;
 }
 
 body .row1Association .ThePeopleDiv {
@@ -1179,6 +1396,60 @@ body .row3 .GroupsDiv th {
     padding: 1%;
 }
 
+body .row0 .Cluny16Image {
+    height: 30em;
+}
+
+body .row0 .Cluny16Explanation {
+    height: 30em;
+}
+
+body .row0 .Cluny16Explanation p {
+    padding: 3%;
+}
+
+body .row1 .GroupsDiv {
+    width: 280%;
+}
+
+body .row1 .GroupsDiv th {
+    width: 40%;
+}
+
+body .row2 .PressDiv .PressImg {
+    display: none;
+}
+
+body .row2 .PressDesktopDiv .PressDesktopImg {
+    display: block;
+    width: 100%;
+}
+
+body .row2 .Articles .ArticlesDiv a img:hover {
+    transform: scale(0.7);
+    transition: all .4s ease-in-out;
+}
+
+body .row3 .Impressions {
+    display: none;
+}
+
+body .row3 .ImpressionsDesktop {
+    display: block;
+}
+
+body .row3 .ImpressionsDesktop img {
+    width: 100%;
+}
+
+body .row2 .ArticlesDiv {
+    width: 100%;
+}
+
+body .row2 .ArticlesDiv th {
+    width: 33.33%;
+}
+
 body .Lyon16 img {
   display: block;
   width: 100%;
@@ -1306,6 +1577,10 @@ body .row1 .History .HistoryDiv {
 
 body .row1 .History .HistoryDiv th {
     width: 33,33%;
+}
+
+body .row0 .Cluny16Explanation {
+	display: table-cell; 
 }
 
 body .row1 .contactform {

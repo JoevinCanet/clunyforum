@@ -613,12 +613,6 @@ body .row3 .ImpressionsDesktop {
     display: none;
 }
 
-body .row3 .ImpressionsVideos .ImpressionsVideo1 video {
-    margin: 0;
-    border: 0;
-    font-size: 0;
-}
-
 body .row3 .ImpressionsVideos {
   font-size: 0;
   position: relative;

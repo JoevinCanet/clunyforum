@@ -167,7 +167,7 @@ body a {
 body .row1Trailer .Trailer {
   font-size: 0;
   position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
 }
@@ -617,6 +617,22 @@ body .row3 .ImpressionsVideos .ImpressionsVideo1 video {
     margin: 0;
     border: 0;
     font-size: 0;
+}
+
+body .row3 .ImpressionsVideos {
+  font-size: 0;
+  position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+body .row3 .ImpressionsVideos .ImpressionsVideo {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 body .row3 div.ImpressionPics {
